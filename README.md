@@ -415,43 +415,23 @@ src
 
 ## Rider APIs
 
-> Add Screenshot
-
-```
-docs/images/swagger-rider.png
-```
-
----
+<img width="1522" height="408" alt="image" src="https://github.com/user-attachments/assets/57763044-dfba-452b-bf6a-19e7d0f70d0f" />
 
 ## Driver APIs
 
-> Add Screenshot
-
-```
-docs/images/swagger-driver.png
-```
-
----
+<img width="1453" height="492" alt="image" src="https://github.com/user-attachments/assets/eb161d35-12fc-41e6-b166-e9f412bc37cf" />
 
 ## Authentication APIs
 
-> Add Screenshot
+<img width="1480" height="294" alt="image" src="https://github.com/user-attachments/assets/18f2e111-e64b-420b-b509-dbefc57b2075" />
 
-```
-docs/images/swagger-auth.png
-```
-
----
 
 ## DTO Schemas
 
 > Add Screenshot
+<img width="1459" height="728" alt="image" src="https://github.com/user-attachments/assets/05b23fb0-3592-43b4-b3a8-906827c73f9e" />
+<img width="1455" height="466" alt="image" src="https://github.com/user-attachments/assets/55032e52-6e04-431d-a742-8344d48f4957" />
 
-```
-docs/images/swagger-schema.png
-```
-
----
 
 # 🎯 Design Patterns Used
 
