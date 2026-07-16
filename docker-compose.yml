@@ -1,0 +1,41 @@
+services:
+
+  postgres:
+    image: postgis/postgis:17-3.5
+    container_name: ride-postgres
+
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: RIDEBOOKING
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d RIDEBOOKING"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  ride-booking:
+    build: .
+
+    container_name: ride-booking-app
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    ports:
+      - "8700:8700"
+
+    restart: unless-stopped
+
+volumes:
+  postgres-data:
