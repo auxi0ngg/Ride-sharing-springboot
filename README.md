@@ -428,7 +428,6 @@ src
 
 ## DTO Schemas
 
-> Add Screenshot
 <img width="1459" height="728" alt="image" src="https://github.com/user-attachments/assets/05b23fb0-3592-43b4-b3a8-906827c73f9e" />
 <img width="1455" height="466" alt="image" src="https://github.com/user-attachments/assets/55032e52-6e04-431d-a742-8344d48f4957" />
 
